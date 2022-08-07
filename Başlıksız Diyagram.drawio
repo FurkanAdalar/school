@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T18:25:33.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yMASo9M8lTbdz_9Dhqcx" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-07T18:48:27.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ksSU5emFr0D0WXweNBza" version="20.2.3" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -408,6 +408,96 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="600" as="sourcePoint" />
             <mxPoint x="670" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sRc60p0gEXGDjYQO7qut" name="Sayfa -3">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-1" value="başla" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-2" value="döner sipariş ver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-3" value="patates istiyor musun" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="690" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-18" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="paSgdWPBvoROI6kIA1Ex-4" target="paSgdWPBvoROI6kIA1Ex-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-4" value="içecek ister misin" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="820" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-5" value="parasını öde" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-6" value="bitir" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="paSgdWPBvoROI6kIA1Ex-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="sourcePoint" />
+            <mxPoint x="430" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="paSgdWPBvoROI6kIA1Ex-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="645" as="sourcePoint" />
+            <mxPoint x="379.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="paSgdWPBvoROI6kIA1Ex-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="770" as="sourcePoint" />
+            <mxPoint x="380" y="815" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="900" as="sourcePoint" />
+            <mxPoint x="380" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-12" value="patates sipariş et" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="paSgdWPBvoROI6kIA1Ex-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="730" as="sourcePoint" />
+            <mxPoint x="495" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-14" value="E" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="705" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-16" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="760" as="sourcePoint" />
+            <mxPoint x="380" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-17" value="içecek sipariş ver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-19" value="E" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="835" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-20" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;edgeStyle=elbowEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="paSgdWPBvoROI6kIA1Ex-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="890" as="sourcePoint" />
+            <mxPoint x="560" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paSgdWPBvoROI6kIA1Ex-21" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="paSgdWPBvoROI6kIA1Ex-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="990" as="sourcePoint" />
+            <mxPoint x="430" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
